@@ -41,5 +41,13 @@ let x = 25;
 
 
 
+// union types
+let y: string | number | boolean = 35;
 
+y = true;
+
+let z: string | string[];
+
+z = 'kunal';
+z = ['k', 'u', 'n', 'a', 'l'];
 
