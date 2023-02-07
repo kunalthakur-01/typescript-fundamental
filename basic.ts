@@ -51,3 +51,28 @@ let z: string | string[];
 z = 'kunal';
 z = ['k', 'u', 'n', 'a', 'l'];
 
+
+// type aliases
+type Person = {
+    name: string;
+    age: number;
+};
+
+let person3: Person;
+person3 = {
+    name: 'sahil',
+    age: 20
+}
+
+let person4: Person[];
+person4 = [
+    {
+        name: 'sahil',
+        age: 20
+    },
+    {
+        name: 'sahil',
+        age: 20
+    }
+]
+
