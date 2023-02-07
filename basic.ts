@@ -74,5 +74,13 @@ person4 = [
         name: 'sahil',
         age: 20
     }
-]
+];
+
+
+// function types
+function add (a: number, b: string): string | number {
+    return a + b;
+}
+
+add(2, 'k');
 
