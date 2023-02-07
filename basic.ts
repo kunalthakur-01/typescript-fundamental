@@ -17,5 +17,22 @@ let hoobies: string[];
 hoobies = ['cooking', 'playing', 'studying'];
 
 
+// objects declaration
+let person1: {
+    name: string;
+    age: number;
+};
+
+person1 = {
+    name: 'kunal',
+    age: 20
+};
+
+let person2: {
+    name: string;
+    age: number;
+}[];
+
+
 
 
