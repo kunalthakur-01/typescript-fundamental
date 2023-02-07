@@ -35,4 +35,11 @@ let person2: {
 
 
 
+// type inference
+let x = 25;
+// x = 'kunal';
+
+
+
+
 
